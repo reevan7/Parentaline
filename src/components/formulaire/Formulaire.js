@@ -36,7 +36,7 @@ handleFormSubmit = e => {
   render() {
   return (
 
-      <form className="formul" action="#" data-netlify="true">
+      <form className="formul" action="#">
 
         <div className="ligne1">
           <input type="text" id="fname" name="firstname" placeholder="Nom"
