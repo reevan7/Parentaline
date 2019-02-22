@@ -1,0 +1,147 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+.imageFond {
+  z-index : 1;
+  margin-top : 3%;
+  width: 200%;
+  margin-left: -36%;
+}
+.imageFond img{
+max-width: 100%
+}
+
+.formul{
+  z-index: 2;
+  position: relative;
+  margin-left: 25%
+}
+
+.form-dessus{
+  margin-top: -38%;
+}
+
+.texteForGauche {
+  z-index: 2;
+  color: white;
+  text-align: justify !important;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5%;
+}
+
+.texteForGauche h2 {
+  padding-bottom: 2%;
+  font-weight: 600;
+}
+
+.imageMob2 {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .texteForGauche h2 {
+    font-size: 26px;
+
+  }
+
+  .texteForGauche {
+    padding-left: 2%;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .texteForGauche h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .texteForGauche {
+    font-size: 16px;
+    margin-top: 0; 
+  }
+
+  .formulaireCom {
+    margin-top: -5% ;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .imageFull2{
+    display: none;
+  }
+
+  .imageMob2 {
+    display: block;
+  }
+
+  .form-dessus{
+    margin-top: -130%;
+    margin-bottom: 30%;
+  }
+
+  .texteForGauche h2 {
+    font-size: 24px;
+    padding-left: 15%;
+  }
+
+  .texteForGauche {
+    padding-left: 8%;
+    font-size: 18px;
+    margin-bottom: 6%;
+  }
+
+  .formul{
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .form-dessus{
+    margin-top: -130%;
+    margin-bottom: 30%;
+  }
+
+  .texteForGauche h2 {
+    padding-left: 12%;
+    font-size: 22px;
+  }
+
+  .texteForGauche {
+    padding-left: 10%;
+    font-size: 17px;
+    margin-bottom: 4%;
+  }
+
+  .formul{
+    margin-left: 10%;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .form-dessus{
+    margin-top: -138%;
+    margin-bottom: 30%;
+  }
+
+  .texteForGauche h2 {
+    padding-left: 12%;
+    font-size: 18px;
+    padding-bottom: 0;
+  }
+
+  .texteForGauche {
+    padding-left: 10%;
+    font-size: 16px;
+    margin-bottom: 4%;
+  }
+
+  .formul{
+    margin-left: 10%;
+  }
+
+}
