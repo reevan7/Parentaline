@@ -45,7 +45,7 @@ class Questions extends Component {
       <section className="questionSection1">
         <div className="container">
           <div className="row">
-            <div className="col-sm-9 offset-1">
+            <div className="col-sm-9 offset-sm-1 offset-0">
               <h2 className="titre-question">Questions</h2>
               <div className="style-boutton">
 
@@ -75,12 +75,12 @@ class Questions extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-9 offset-1">
+            <div className="col-sm-9 offset-sm-1 offset-0">
               <Question />
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-9 offset-1">
+          <div className="col-sm-9 offset-sm-1 offset-0">
             <Question3 />
         </div>
       </div>
