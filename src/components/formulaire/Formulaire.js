@@ -12,7 +12,7 @@ const encode = (data) => {
 class Formulaire extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { name: "", lname:"", email: "",tel:"", message: "" };
+    this.state = { name: "", lname:"", email: "", tel:"", message: "" };
   }
 
   /* Here’s the juicy bit for posting the form submission */
@@ -32,7 +32,7 @@ class Formulaire extends React.Component {
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   render() {
-    const { name, email, message } = this.state;
+    const { name, email, lname, tel, message } = this.state;
     return (
       <form className="formul" onSubmit={this.handleSubmit}>
         <div className="ligne1">
