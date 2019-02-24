@@ -1,4 +1,6 @@
 <?php
+
+header("Access-Control-Allow-Origin: *");
 if(isset($_POST['submit'])){
     $to = "dimitri@dimitri-talandier.fr"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
