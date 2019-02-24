@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios'
 import './formulaire.css'
 
-const API_PATH = 'http://localhost:3000/index.php';
+const API_PATH = 'https://parentaline.netlify.com/index.php';
 
 class Formulaire extends Component {
   constructor(props) {
