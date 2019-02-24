@@ -2,57 +2,90 @@ import React, { Component } from 'react';
 import axios from 'axios'
 import './formulaire.css'
 
+const API_PATH = 'http://localhost:3000/index.php';
 
-const encode = (data) => {
-  return Object.keys(data)
-      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
-}
-
-class Formulaire extends React.Component {
+class Formulaire extends Component {
   constructor(props) {
-    super(props);
-    this.state = { name: "", lname:"", email: "", tel:"", message: "" };
-  }
-
-  /* Here’s the juicy bit for posting the form submission */
-
-  handleSubmit = e => {
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
-    })
-      .then(() => alert("Success!"))
-      .catch(error => alert(error));
-
-    e.preventDefault();
-  };
-
-  handleChange = e => this.setState({ [e.target.name]: e.target.value });
-
-  render() {
-    const { name, email, lname, tel, message } = this.state;
-    return (
-      <form className="formul" onSubmit={this.handleSubmit}>
-        <div className="ligne1">
-          <input type="text" name="name" id="fname" value={name} onChange={this.handleChange} placeholder="Nom" required/>
-          <input type="text" name="lname" id="lname" value={lname} onChange={this.handleChange} placeholder="Prénom" required/>
-        </div>
-        <div className="ligne2">
-          <input type="email" name="email" id="email" value={email} onChange={this.handleChange} placeholder="Email" required/>
-          <input type="text" name="tel" id="tel" value={tel} onChange={this.handleChange} placeholder="Téléphone" maxLength="10"/>
-        </div>
-        <div className="situation">
-          <textarea name="message" id="message" value={message} onChange={this.handleChange} placeholder="Décrivez votre situation" />
-        </div>
-        <div className="envoi">
-          <button id="submit" type="submit">Send</button>
-        </div>
-      </form>
-    );
-  }
+  super(props);
+  this.state = {
+  fname: '',
+  lname: '',
+  email: '',
+  tel: '',
+  message: '',
+  mailSent: false,
+  error: null
+};
+  this.handleFormSubmit = this.handleFormSubmit.bind(this)
 }
+handleFormSubmit = e => {
+  e.preventDefault();
+  axios({
+    method: 'post',
+    url: `${API_PATH}`,
+    headers: { 'content-type': 'application/json' },
+    data: this.state
+  })
+    .then(result => {
+      this.setState({
+        mailSent: result.data.sent
+      })
+    })
+    .catch(error => this.setState({ error: error.message }));
+};
+  render() {
+  return (
 
+      <form className="formul" action="#" >
+
+        <div className="ligne1">
+          <input type="text" id="fname" name="firstname" placeholder="Nom"
+            value={this.state.fname}
+            onChange={e => this.setState({ fname: e.target.value })}
+            required />
+
+          <input type="text" id="lname" name="lastname" placeholder="Prénom"
+            value={this.state.lname}
+            onChange={e => this.setState({ lname: e.target.value })}
+          required  />
+        </div>
+
+        <div className="ligne2">
+          <input type="email" id="email" name="email" placeholder="Email"
+            value={this.state.email}
+            onChange={e => this.setState({ email: e.target.value })}
+          required  />
+
+        <input type="text" id="tel" name="tel" placeholder="Téléphone"
+              value={this.state.tel}
+              onChange={e => this.setState({ tel: e.target.value })}
+            maxLength="10"  />
+          </div>
+
+          <div className="situation">
+            <textarea id="message" name="message" placeholder="Décrivez votre situation"
+              onChange={e => this.setState({ message: e.target.value })}
+              value={this.state.message}
+            ></textarea>
+          </div>
+
+          <div className="envoi">
+            <input type="submit" id="submit" onClick={e => this.handleFormSubmit(e)} value="Prendre rendez-vous" />
+          </div>
+
+          <div>
+    {this.state.mailSent &&
+      <div>Thank you for contcting us.</div>
+    }
+  </div>
+      </form >
+
+
+
+
+
+  );
+}
+}
 
 export default Formulaire
