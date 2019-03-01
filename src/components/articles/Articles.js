@@ -23,7 +23,7 @@ class Articles extends Component {
                  Le sentiment d'être perdu et désarmé face à ce petit être est très fréquent. Par une écoute active, une connaissance de votre enfant,
                   vos compétences, Parentaline vous accompagne pour trouver ensemble les solutions les plus adaptées autour du sommeil, de l'alimentation,
                    du rythme de vie, du portage, des soins d'hygiène...<br />
-                   -A domicile : à proximité d'Aix en Provence : 45mn d'entretien à 50 euros + frais kilométriques
+                 -A domicile : à proximité d'Aix en Provence : 45mn d'entretien à 50 euros + frais kilométriques <br />
                    -Via skype : 45mn d'entretien à 50 euros
 
               </span>
