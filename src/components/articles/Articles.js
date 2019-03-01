@@ -16,12 +16,17 @@ class Articles extends Component {
             <img className="article1-imgMob" src={ article1Mob} alt="article1"/>
               </div>
             <div className="col-sm-7 article1-text">
-              <h2>Titre</h2>
-              <span>Après 15 mois d'infirmière en service pédiatrique  sur Necker (Paris Vème), je me suis spécialisée en puériculture.
-              Depuis 26 ans je dirige des structures d'accueil petite enfance, j'interviens lors de formations auprès des assistantes
-              maternelles, des CAP petite enfance, des auxiliaires en puériculture et des infirmières-puéricultrices. Pour approfondir
-              cet intérêt, j'ai suivi des formations sur les émotions des jeunes enfants,  le libre agir, la motricité libre et l'importance
-               de la contenance du donneur de soin (holding et handling). </span>
+              <h2>Conseils en puériculture</h2>
+              <span>
+                Enfin votre bébé est là ! 1ères inquiétudes et 1er stress. A la maternité des professionnels de la toute petite enfance sont présents pour vous
+                rassurés et vous accompagner dans cette rencontre avec votre enfant. Le retour à la maison est réconfortant mais également déstabilisant.
+                 Le sentiment d'être perdu et désarmé face à ce petit être est très fréquent. Par une écoute active, une connaissance de votre enfant,
+                  vos compétences, Parentaline vous accompagne pour trouver ensemble les solutions les plus adaptées autour du sommeil, de l'alimentation,
+                   du rythme de vie, du portage, des soins d'hygiène...<br />
+                   -A domicile : à proximité d'Aix en Provence : 45mn d'entretien à 50 euros + frais kilométriques
+                   -Via skype : 45mn d'entretien à 50 euros
+
+              </span>
             </div>
 
         </div>
