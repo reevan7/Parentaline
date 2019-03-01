@@ -18,10 +18,10 @@ class Articles extends Component {
             <div className="col-sm-7 article1-text">
               <h2>Conseils en puériculture</h2>
               <span>
-                Enfin votre bébé est là ! Premières inquiétudes et premiers stress. À la maternité des professionnels de la toute petite enfance sont présents pour vous
+                Enfin votre bébé est là ! Premières inquiétudes et premiers stress. À la maternité, des professionnels de la toute petite enfance sont présents pour vous
                 rassurer et vous accompagner dans cette rencontre avec votre enfant. Le retour à la maison est réconfortant mais également déstabilisant.
-                 Le sentiment d'être perdu et désarmé face à ce petit être est très fréquent. Par une écoute active, une connaissance de votre enfant,
-                  vos compétences, Parentaline vous accompagne pour trouver ensemble les solutions les plus adaptées autour du sommeil, de l'alimentation,
+                 Le sentiment d'être perdu et désarmé face à ce petit être est très fréquent. Par une écoute active, une connaissance de votre enfant et
+                  vos compétences, Parentaline vous accompagne via des séances à domicile ou par vidéo-conférence  pour trouver ensemble les solutions les plus adaptées autour du sommeil, de l'alimentation,
                    du rythme de vie, du portage, des soins d'hygiène...
               </span>
             </div>
