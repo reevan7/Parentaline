@@ -18,14 +18,15 @@ class Articles extends Component {
             <div className="col-sm-7 article1-text">
               <h2>Conseils en puériculture</h2>
               <span>
-                Enfin votre bébé est là ! Premières inquiétudes et premiers stress. A la maternité des professionnels de la toute petite enfance sont présents pour vous
-                rassurés et vous accompagner dans cette rencontre avec votre enfant. Le retour à la maison est réconfortant mais également déstabilisant.
+                Enfin votre bébé est là ! Premières inquiétudes et premiers stress. À la maternité des professionnels de la toute petite enfance sont présents pour vous
+                rassurer et vous accompagner dans cette rencontre avec votre enfant. Le retour à la maison est réconfortant mais également déstabilisant.
                  Le sentiment d'être perdu et désarmé face à ce petit être est très fréquent. Par une écoute active, une connaissance de votre enfant,
                   vos compétences, Parentaline vous accompagne pour trouver ensemble les solutions les plus adaptées autour du sommeil, de l'alimentation,
                    du rythme de vie, du portage, des soins d'hygiène...<br />
-                 -A domicile : à proximité d'Aix en Provence : 45mn d'entretien à 50 euros + frais kilométriques <br />
-                   -Via skype : 45mn d'entretien à 50 euros
-
+                 <ul>
+                 <li>À domicile : à proximité d'Aix en Provence : 45mn d'entretien à 50 euros + frais kilométriques</li>
+                  <li>Via skype : 45mn d'entretien à 50 euros</li>Via skype : 45mn d'entretien à 50 euros</li>
+                  </ul>
               </span>
             </div>
 
@@ -44,7 +45,9 @@ class Articles extends Component {
                     psycho- affectif, des conseils éducatifs adaptés, une approche communicante participative,
                     vos compétences, Parentaline vous accompagne pour trouver ensemble les solutions les plus adaptées
                     afin d'améliorer votre quotidien et celui de votre enfant en répondant au mieux à ses besoins. <br />
-                  Via skype : 45 minutes d'entretien à 50 euros
+                  <ul>
+                    <li>Via skype : 45 minutes d'entretien à 50 euros</li>
+                  </ul>
                 </span>
             </div>
             <div className="col-sm-5">
