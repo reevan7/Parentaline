@@ -26,7 +26,7 @@ class Articles extends Component {
               </span>
               <ul>
               <li>À domicile : à proximité d'Aix en Provence : 45mn d'entretien à 50 euros + frais kilométriques</li>
-               <li>Via skype : 45mn d'entretien à 50 euros</li>Via skype : 45mn d'entretien à 50 euros</li>
+               <li>Via skype : 45mn d'entretien à 50 euros</li>
                </ul>
             </div>
 
