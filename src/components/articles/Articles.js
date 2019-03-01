@@ -45,6 +45,7 @@ class Articles extends Component {
                     psycho- affectif, des conseils éducatifs adaptés, une approche communicante participative,
                     vos compétences, Parentaline vous accompagne pour trouver ensemble les solutions les plus adaptées
                     afin d'améliorer votre quotidien et celui de votre enfant en répondant au mieux à ses besoins.
+                  </span>
                 <ul>
                   <li>Via skype : 45 minutes d'entretien à 50 euros</li>
                 </ul>
