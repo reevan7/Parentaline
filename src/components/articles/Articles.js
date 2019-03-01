@@ -38,7 +38,7 @@ class Articles extends Component {
               <h2>Conseils en parentalité</h2>
               <span>
                   Votre enfant grandit, s'oppose, teste les limites, questionne les relations et les règles !
-                   Pas si simple d'être contenant et éducateur! Parfois seul ou en désaccords parentaux, le doute
+                   Pas si simple d'être contenant et éducateur ! Parfois seul ou en désaccords parentaux, le doute
                    et l'incertitude s'installent et laissent place à un sentiment d'incapacité voir d'être
                     mauvais parents. Par une écoute spécifique de vos difficultés, une connaissance du développement
                     psycho- affectif, des conseils éducatifs adaptés, une approche communicante participative,
