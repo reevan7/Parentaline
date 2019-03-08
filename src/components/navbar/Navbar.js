@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './navbar.scss'
 import mainLogo from './assets/logo-parentaline_03.png'
+import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
   constructor(){
@@ -49,7 +50,7 @@ class Navbar extends Component {
                   <li className="premierLi"><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#">Accueil</a></li>
                   <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#">Pédagogie</a></li>
                   <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#">Articles</a></li>
-                  <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#">Contact</a></li>
+                  <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#"><Link to="contact">Contact</Link></a></li>
               </ul>
               </nav>
             </div>
