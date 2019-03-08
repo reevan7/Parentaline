@@ -1,17 +1,43 @@
 <?php
-
 header("Access-Control-Allow-Origin: *");
-if(isset($_POST['submit'])){
-    $to = "dimitri@dimitri-talandier.fr"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['name'];
-    $subject = "Demande de contact";
-    $message = $first_name . " " . "vous a envoyé:" . "\n\n" . $_POST['message'];
+$rest_json = file_get_contents("php://input");
+$_POST = json_decode($rest_json, true);
 
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-  	header('location: https://dimitri-talandier.fr/merci.php');
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
-    }
+if (empty($_POST['fname']) && empty($_POST['email'])) die();
+
+if ($_POST)
+	{
+
+	// set response code - 200 OK
+
+	http_response_code(200);
+	$subject = $_POST['fname'];
+	$to = "dimitri.talandier@gmail.com";
+	$from = $_POST['email'];
+
+	// data
+
+	$msg = $_POST['number'] . $POST['tel'] . $_POST['message'];
+
+	// Headers
+
+	$headers = "MIME-Version: 1.0\r\n";
+	$headers.= "Content-type: text/html; charset=UTF-8\r\n";
+	$headers.= "From: <" . $from . ">";
+	mail($to, $subject, $msg, $headers);
+
+	// echo json_encode( $_POST );
+
+	echojson_encode(array(
+		"sent" => true
+	));
+	}
+  else
+	{
+
+	// tell the user about error
+
+	echojson_encode(["sent" => false, "message" => "Something went wrong"]);
+	}
+
 ?>
