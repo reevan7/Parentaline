@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import './articles.css'
 import article1 from './assets/33089507-mom-and-kid-boy-painting-together-at-home2.png'
 import article1Mob from './assets/article1-mob.png'
-import article2 from './assets/405519-PCVNGC-6192.png'
+import article2 from './assets/article2-full2.png'
 import article2Mob from './assets/article2-mob.png'
+
 
 class Articles extends Component {
   render () {
