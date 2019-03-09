@@ -6,9 +6,12 @@
   .amenu{
     display: none !important;
     overflow: hidden;
-
   }
 
+  .Menu a {
+      color: white !important;
+      font-size: 26px !important;
+  }
 
 .premierLi{
   margin-top: 50%;
@@ -23,6 +26,8 @@
 }
 
 }
+
+
 
 
 .mobile{
@@ -74,6 +79,26 @@
   width : 90%;
 }
 
+.dropdown {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+.hover-drop:hover ul {
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
 
 /*-----------menu---------------------*/
 
@@ -109,9 +134,9 @@ $time-out: .3s;
 
 .hamburger__line{
   display: block;
-  width: 45px;
-  height: 5px;
-  margin: 10px;
+  width: 30px;
+  height: 3px;
+  margin: 8px;
   border-radius: 50px;
   background: whitesmoke;
   transition: $time-out;
@@ -149,7 +174,7 @@ $time-out: .3s;
 @media screen and (max-width: 550px)
 {
   .box{
-    margin-left: 85%;
+    margin-left: 90%;
     margin-top: -19%;
   }
 }
