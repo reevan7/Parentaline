@@ -17,7 +17,7 @@ class FormulairePres extends Component {
           <div className="row form-dessus">
             <div className="col-sm-4 texteForGauche">
               <h2>Prenez rendez-vous</h2>
-              <span>Expliquer moi votre problématique, votre questionnement ou votre situation et je vous
+              <span>Expliquez moi votre problématique, votre questionnement ou votre situation et je vous
                  contacterai par Email ou par Téléphone afin de fixer un premier rendez-vous</span>
             </div>
             <div className="col-sm-8 formulaireCom">
