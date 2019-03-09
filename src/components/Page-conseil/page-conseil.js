@@ -1,0 +1,17 @@
+import React, { Component } from 'react';
+import Navbar from '../navbar/Navbar'
+import Footer from '../footer/footer'
+
+
+const PageConseil = () =>
+<div>
+  <Navbar />
+
+  <Formulaire />
+
+  <Footer />
+
+</div>
+
+
+export default PageConseil

@@ -48,8 +48,12 @@ class Navbar extends Component {
               </span>
               <ul className={this.state.responsive ? "amenu test" : "amenu mobile2"}>
                   <li className="premierLi"><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#">Accueil</a></li>
-                  <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#">Pédagogie</a></li>
-                  <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#">Articles</a></li>
+                  <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#"><Link to="conseils">Conseils</Link></a>
+                    <ul>
+                      <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#"><Link to="conseils/pedagogique">Conseils Pédagogiques</li>
+                    </ul>
+                    </li>
+                  <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#"><Link to="articles">Articles</link></a></li>
                   <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#"><Link to="contact">Contact</Link></a></li>
               </ul>
               </nav>
