@@ -7,7 +7,7 @@ const PageArticle = () =>
 <div>
   <Navbar />
 
-  <Formulaire />
+
 
   <Footer />
 

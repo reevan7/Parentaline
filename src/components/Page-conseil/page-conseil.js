@@ -7,7 +7,6 @@ const PageConseil = () =>
 <div>
   <Navbar />
 
-  <Formulaire />
 
   <Footer />
 

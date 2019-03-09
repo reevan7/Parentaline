@@ -7,7 +7,6 @@ const PagePedagogique = () =>
 <div>
   <Navbar />
 
-  <Formulaire />
 
   <Footer />
 
