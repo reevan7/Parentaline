@@ -54,7 +54,7 @@ class Navbar extends Component {
                     </li>
                     </ul>
                     </li>
-                  <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#"><Link to="articles">Articles</link></a></li>
+                  <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#"><Link to="articles">Articles</Link></a></li>
                   <li><a className={this.state.responsive ? "nav-link" : "nav-link mobile"} href="#"><Link to="contact">Contact</Link></a></li>
               </ul>
               </nav>
