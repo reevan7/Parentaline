@@ -1,7 +1,7 @@
 {
   "name": "recipe-app",
   "engines": {
-    "node": ">=50.9"
+    "node": ">=10.15.3"
   },
   "version": "0.1.0",
   "private": true,
