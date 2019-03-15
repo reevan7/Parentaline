@@ -11,7 +11,7 @@ const encode = (data) => {
 class Formulaire extends Component  {
   constructor(props) {
     super(props);
-    this.state = { lname: "", fname="", tel:"", email: "", message: "" };
+    this.state = { lname: "", fname:"", tel:"", email: "", message: "" };
   }
 
   /* Here’s the juicy bit for posting the form submission */
