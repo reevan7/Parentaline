@@ -31,7 +31,7 @@ class Formulaire extends Component  {
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   render()
-  return {
+  return (
     <form onSubmit={this.handleSubmit}>
 
         <div className="ligne1">
@@ -63,5 +63,5 @@ class Formulaire extends Component  {
           </div>
       </form >
 
-}
+)
 export default Formulaire
