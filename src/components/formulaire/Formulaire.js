@@ -31,6 +31,7 @@ class Formulaire extends Component  {
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   render(){
+  const { fname, lname, tel, email, message } = this.state;
   return (
     <form onSubmit={this.handleSubmit}>
 
