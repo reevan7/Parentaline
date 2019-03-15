@@ -57,7 +57,7 @@ class Question3 extends Component {
         <div className={ this.state.border ? 'text-Active' : 'text-disabled'}>
         <Collapse in={this.state.open}>
           <div id="example-collapse-text" className="texte">
-            Les rencontres peuvent se faire sur Aix-en-Provence
+            Ces rencontres peuvent se faire sur Aix-en-Provence
             les vendredis après-midi (8, rue Thiers) ou à votre domicile autour
             d'Aix-en-Provence (frais kilométriques à ajouter à la séance).
           </div>
