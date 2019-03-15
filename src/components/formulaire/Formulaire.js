@@ -40,18 +40,16 @@ class Formulaire extends Component  {
             value={ fname } onChange={this.handleChange}  />
 
           <input type="text" id="lname" name="lastname" placeholder="Prénom"
-            value={ lname } onChange={this.handleChange}
-          required  />
+            value={ lname } onChange={this.handleChange} />
         </div>
 
         <div className="ligne2">
           <input type="email" id="email" name="email" placeholder="Email"
-            value={ email } onChange={this.handleChange}
-            /
+            value={ email } onChange={this.handleChange} />
 
         <input type="text" id="tel" name="tel" placeholder="Téléphone"
           value={ tel } onChange={this.handleChange}
-            maxLength="10"  />
+            maxLength="10"/>
           </div>
 
           <div className="situation">
