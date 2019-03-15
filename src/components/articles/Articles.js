@@ -40,8 +40,8 @@ class Articles extends Component {
                    et l'incertitude s'installent et laissent place à un sentiment d'incapacité voir d'être
                     mauvais parents. Par une écoute spécifique de vos difficultés, une connaissance du développement
                     psycho- affectif, des conseils éducatifs adaptés, une approche communicante participative,
-                    vos compétences, Parentaline vous accompagne pour trouver ensemble les solutions les plus adaptées
-                    afin d'améliorer votre quotidien et celui de votre enfant en répondant au mieux à ses besoins.
+                    Parentaline vous accompagne pour répondre au mieux aux besoins de votre enfant: les émotions
+                    (colère, tristesse...), le "non", le langage, les jeux...
                   </span>
             </div>
             <div className="col-sm-5">

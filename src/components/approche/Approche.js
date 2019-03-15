@@ -41,9 +41,12 @@ class Approche extends Component {
               <div className="propos-carre">
                 <h2 className="titre-bloc-droit">A propos</h2>
                 <p className="bloctext-droit">
-                  Infirmière-puéricultrice depuis 26 ans, je dirige des structures d'accueil petite enfance.
-                  J'ai suivi des formations sur les émotions des jeunes enfants,  le libre agir, la motricité libre et l'importance de la contenance du donneur de soin.
-                  Ces expériences m'ont orientée vers cet accompagnement à la parentalisation : être parent peut être déstabilisant, les sentiments de frustration,
+                   Infirmière puéricultrice, je dirige depuis 26 ans des structures petite
+                   enfance. Les émotions des jeunes enfants, le libre agir, la motricité libre,
+                  la relation parent/enfant, le "parler vrai" à l'enfant font partis de mon quotidien.
+                  Les sollicitations régulières des parents face aux différentes étapes de l'évolution
+                  de leur enfant m'ont orientée vers cet accompagnement à la parentalisation :
+                   être parent peut être déstabilisant, les sentiments de frustration,
                   d'impuissance, d'incompréhension, d'être démuni sont souvent présents.
                   Avec Parentaline, je souhaite vous accompagner dans un cadre bienveillant vers une éducation où chacun, parent/enfant, se sent écouté, compris et respecté.
                 </p>

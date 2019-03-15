@@ -55,7 +55,7 @@ class Questions extends Component {
           aria-expanded={open}
           className = { this.state.button ? 'buttonTrue closed' : 'buttonFalse opened'}
         >
-          <p className="question-text">Did you find any droids? No, sir. If there were any on board, they must also have jettisoned.</p>
+          <p className="question-text">Qu'est-ce que le conseil en parentalité ?</p>
           <div className="horizontal"></div>
           <div className="vertical"></div>
           <div>
@@ -66,9 +66,9 @@ class Questions extends Component {
         <div className={ this.state.border ? 'text-Active' : 'text-disabled'}>
         <Collapse in={this.state.open}>
           <div id="example-collapse-text" className="texte">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-            terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-            labore wes anderson cred nesciunt sapiente ea proident.
+            C'est un soutien ponctuel d'une à deux séances ou plus si vous en ressentez
+            la nécessité. Il permet aux parents de mieux adapter ses réactions aux comportements
+            de son enfant, de mieux le comprendre et de mieux répondre à ses réels besoins.
           </div>
         </Collapse>
 </div>

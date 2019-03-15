@@ -45,7 +45,7 @@ class Question extends Component {
           aria-expanded={open}
           className = { this.state.button ? 'buttonTrue closed' : 'buttonFalse opened'}
           >
-          <p className="question-text">Did you find any droids? No, sir. If there were any on board, they must also have jettisoned.</p>
+          <p className="question-text">A quel moment vous contacter ?</p>
           <div className="horizontal"></div>
           <div className="vertical"></div>
             <div>
@@ -56,9 +56,9 @@ class Question extends Component {
       <div className={ this.state.border ? 'text-Active' : 'text-disabled'}>
         <Collapse in={this.state.open}>
           <div id="example-collapse-text" className="texte">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-            terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-            labore wes anderson cred nesciunt sapiente ea proident.
+            Dés que vous en ressentez le besoin. Ces échanges permettent
+            de prendre du recul, de lâcher prise en prenant le temps pour
+            vous et ainsi de déculpabiliser. Un peu comme un espace de décompression !
           </div>
 
         </Collapse>
