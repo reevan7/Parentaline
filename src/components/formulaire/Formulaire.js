@@ -63,5 +63,8 @@ class Formulaire extends Component  {
           </div>
       </form >
 
-)};
+)
+}
+}
+
 export default Formulaire
