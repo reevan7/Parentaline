@@ -33,7 +33,6 @@ class Formulaire extends Component  {
   render()
   return {
     <form onSubmit={this.handleSubmit}>
-      <input type="hidden" name="form-name" value="contact" />
 
         <div className="ligne1">
           <input type="text" id="fname" name="firstname" placeholder="Nom" value={ fname } onChange={this.handleChange} required />
