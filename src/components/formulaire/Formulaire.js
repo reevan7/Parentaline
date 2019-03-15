@@ -8,10 +8,7 @@ class Formulaire extends Component {
   return (
 
       <form
-        method="post"
-        name="contact"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field">
+      name="contact"  method="POST" data-netlify="true">
 
         <div className="ligne1">
           <input type="text" id="fname" name="firstname" placeholder="Nom"
@@ -40,7 +37,7 @@ class Formulaire extends Component {
           </div>
 
           <div className="envoi">
-            <input type="submit" id="submit" value="Prendre rendez-vous" />
+            <button type="submit" id="submit">Prendre Rendez-vous</button>
           </div>
       </form >
 
