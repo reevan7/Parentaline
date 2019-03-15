@@ -4,7 +4,7 @@ import './formulaire.css'
 
 const Formulaire = () => (
       <form
-      name="contact"  method="POST" data-netlify="true">
+      name="contact"  method="POST"   netlify>
 
         <div className="ligne1">
           <input type="text" id="fname" name="firstname" placeholder="Nom"

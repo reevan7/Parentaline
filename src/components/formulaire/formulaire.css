@@ -12,7 +12,7 @@ input[type=text],input[type=email], select, textarea {
     box-sizing: border-box;
     resize: vertical;
 }
-input[type=submit] {
+button[type=submit] {
     background-color: #0c3f63;
     color: white;
     padding: 12px;
@@ -20,7 +20,7 @@ input[type=submit] {
     border-radius: 0px 0px 25px 25px;
     cursor: pointer;
 }
-input[type=submit]:hover {
+button[type=submit]:hover {
     background-color: #dbb457;
 }
 
