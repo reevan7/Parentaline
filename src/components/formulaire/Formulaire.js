@@ -36,10 +36,10 @@ class Formulaire extends Component  {
     <form onSubmit={this.handleSubmit}>
 
         <div className="ligne1">
-          <input type="text" id="fname" name="firstname" placeholder="Nom"
+          <input type="text" id="fname" name="fname" placeholder="Nom"
             value={ fname } onChange={this.handleChange}  />
 
-          <input type="text" id="lname" name="lastname" placeholder="Prénom"
+          <input type="text" id="lname" name="lname" placeholder="Prénom"
             value={ lname } onChange={this.handleChange} />
         </div>
 
