@@ -42,6 +42,7 @@ class Articles extends Component {
                     psycho- affectif, des conseils éducatifs adaptés, une approche communicante participative,
                     Parentaline vous accompagne pour répondre au mieux aux besoins de votre enfant: les émotions
                     (colère, tristesse...), le "non", le langage, l'affirmation de soi, les jeux...
+                    
                   </span>
             </div>
             <div className="col-sm-5">
