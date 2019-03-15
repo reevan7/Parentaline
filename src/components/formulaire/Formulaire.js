@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import './formulaire.css'
 
-const API_PATH = 'https://parentaline.netlify.com/index.php';
 
-class Formulaire extends Component {
-  render() {
-  return (
-
+const Formulaire = () => (
       <form
       name="contact"  method="POST" data-netlify="true">
 
@@ -40,13 +36,6 @@ class Formulaire extends Component {
             <button type="submit" id="submit">Prendre Rendez-vous</button>
           </div>
       </form >
-
-
-
-
-
-  );
-}
-}
+)
 
 export default Formulaire
