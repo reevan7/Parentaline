@@ -36,7 +36,8 @@ class Formulaire extends Component  {
     <form onSubmit={this.handleSubmit}>
 
         <div className="ligne1">
-          <input type="text" id="fname" name="firstname" placeholder="Nom" value={ fname } onChange={this.handleChange} required />
+          <input type="text" id="fname" name="firstname" placeholder="Nom"
+            value={ fname } onChange={this.handleChange}  />
 
           <input type="text" id="lname" name="lastname" placeholder="Prénom"
             value={ lname } onChange={this.handleChange}
@@ -46,7 +47,7 @@ class Formulaire extends Component  {
         <div className="ligne2">
           <input type="email" id="email" name="email" placeholder="Email"
             value={ email } onChange={this.handleChange}
-          required  />
+            /
 
         <input type="text" id="tel" name="tel" placeholder="Téléphone"
           value={ tel } onChange={this.handleChange}
