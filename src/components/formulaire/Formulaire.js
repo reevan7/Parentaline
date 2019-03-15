@@ -37,15 +37,15 @@ class Formulaire extends Component  {
 
         <div className="ligne1">
           <input type="text" id="fname" name="fname" placeholder="Nom"
-            value={ fname } onChange={this.handleChange}  />
+            value={ fname } onChange={this.handleChange}  required/>
 
           <input type="text" id="lname" name="lname" placeholder="Prénom"
-            value={ lname } onChange={this.handleChange} />
+            value={ lname } onChange={this.handleChange} required/>
         </div>
 
         <div className="ligne2">
           <input type="email" id="email" name="email" placeholder="Email"
-            value={ email } onChange={this.handleChange} />
+            value={ email } onChange={this.handleChange} required/>
 
         <input type="text" id="tel" name="tel" placeholder="Téléphone"
           value={ tel } onChange={this.handleChange}
